@@ -16,5 +16,10 @@ Route::get('/', function () {
 });
 
 Route::get('/scheduling', 'SchedulingController@index');
+
 Route::get('/queue', 'QueueController@index');
 Route::post('/queue/store', 'QueueController@store')->name('addqueue');
+
+Route::get('/cache', 'CacheController@index');
+Route::get('/cache/get', 'CacheController@get')->name('getcache');
+Route::post('/cache/store', 'CacheController@store')->name('addcache');

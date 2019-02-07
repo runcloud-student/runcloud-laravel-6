@@ -87,6 +87,7 @@
                 <div class="links">
                     <a href="/scheduling">Scheduling</a>
                     <a href="/queue">Queue</a>
+                    <a href="/cache">Cache</a>
                 </div>
             </div>
         </div>
