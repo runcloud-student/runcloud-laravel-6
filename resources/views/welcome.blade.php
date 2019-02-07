@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    RunCloud Test
+                    RunCloud
                 </div>
 
                 <div class="links">
