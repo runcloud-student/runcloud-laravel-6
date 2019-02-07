@@ -16,3 +16,5 @@ Route::get('/', function () {
 });
 
 Route::get('/scheduling', 'SchedulingController@index');
+Route::get('/queue', 'QueueController@index');
+Route::post('/queue/store', 'QueueController@store')->name('addqueue');
